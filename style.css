@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction:column;
+    
+    
+    background-color: rgb(163, 161, 161);
+}
+
+.java{
+display: block;
+margin: 0 auto;
+padding: 0;
+    
+
+}
+.text{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 130px;
+    color: rgb(190, 67, 36);
+}
+
+.form__forma{
+    box-shadow: 16px 16px 21px rgb(0 0 0 / 91%);
+    background-color: rgb(252, 214, 172);
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    display: flex;
+    margin: 30px auto;
+    padding: 10px;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:720px) {
+    .text{
+        font-size: 50px;   
+    }
+    .java{margin: 100px auto;}
+}
+
+
+
+
+@media  (max-width:375px) {
+    .text{
+        font-size: 40px;   
+    }
+    .java{margin: 20px auto;}
+}
+
