@@ -96,9 +96,10 @@ function checkForm(el){
     
     else {
         alert("Все записанно верно !!!");
-        alert("Ваше имя -" + name + "; Пароль - " + pass + "; Пол - " + state + " !")
+        alert("Ваше имя -" + name + "; Пароль - " + pass + "; Пол - " + state + " !");
+
         return true;
-    }        
+    }       
 }
 
 
