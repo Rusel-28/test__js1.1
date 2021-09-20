@@ -83,11 +83,11 @@ function checkForm(el){
     if(name == "" || pass == "" || state == "")
     fail = "Заполните все поля";
     else if(name.length <= 1 || name.length > 10)
-    fail = "ведите имя правильно";
+    fail = "Введите имя правильно";
     else if(pass != repass)
-    fail = "пароли не совпадают";
+    fail = "Пароли не совпадают";
     else if (pass.split("&").length > 1)
-    fail = "некоректный пароль";
+    fail = "Некорректный пароль";
 
     if (fail != "") {
         document.getElementById('error').innerHTML = fail;
